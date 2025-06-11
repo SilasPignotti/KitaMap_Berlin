@@ -10,7 +10,7 @@ KitaMap Berlin analysiert die räumliche Verteilung und Erreichbarkeit von Kitap
 
 Ein interaktives Dashboard visualisiert die Ergebnisse und ist verfügbar unter: [https://pinea.app.carto.com/map/81885962-c7a8-4639-8124-372e0caa6e60]
 
-##Datenquellen
+## Datenquellen
 
 * OpenStreetMap: Kita-Standorte und Grunddaten
 * Berliner Geoportal: Administrative Grenzen
