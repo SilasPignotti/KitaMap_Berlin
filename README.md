@@ -1,4 +1,4 @@
-# 🏫 KitaMap Berlin - Daycare Center Spatial Analysis
+# KitaMap Berlin - Daycare Center Spatial Analysis
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -9,7 +9,7 @@
 
 **🌐 [View Interactive Dashboard](https://pinea.app.carto.com/map/81885962-c7a8-4639-8124-372e0caa6e60)**
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # 1. Clone the repository
@@ -26,11 +26,11 @@ python main.py
 jupyter notebook notebooks/
 ```
 
-## 🎯 Project Overview
+## Project Overview
 
 KitaMap Berlin is a comprehensive data-driven project analyzing the spatial distribution and accessibility of daycare centers in Berlin. The project combines modern GIS technologies with advanced analytical methods to provide evidence-based insights for urban planning and policy decisions.
 
-### ✨ Key Features
+### Key Features
 
 - **📊 Coverage Analysis**: District-level assessment of current daycare availability
 - **🔮 Demographic Forecasting**: Population-based demand prediction until 2034
@@ -39,7 +39,7 @@ KitaMap Berlin is a comprehensive data-driven project analyzing the spatial dist
 - **🌱 Environmental Integration**: Proximity analysis to green spaces and water areas
 - **📱 Interactive Visualization**: Web-based dashboard with CARTO integration
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### 🐍 Core Technologies
 - **Python 3.8+** - Primary programming language
@@ -47,7 +47,7 @@ KitaMap Berlin is a comprehensive data-driven project analyzing the spatial dist
 - **Pandas & NumPy** - Data processing and numerical computations
 - **Shapely** - Geometric operations and spatial calculations
 
-### 🗺️ GIS & Mapping
+### 🗺 GIS & Mapping
 - **CARTO** - Interactive web-based visualization platform
 - **OpenStreetMap** - Base map data and point-of-interest extraction
 - **OpenRouteService API** - Isochrone and routing calculations
@@ -64,7 +64,7 @@ KitaMap Berlin is a comprehensive data-driven project analyzing the spatial dist
 - **TQDM** - Progress bars for long-running operations
 - **Python-dotenv** - Environment variable management
 
-## 📁 Projektstruktur
+## Project Structure
 
 ```
 KitaMap_Berlin/
@@ -125,7 +125,7 @@ KitaMap_Berlin/
         └── settings.yml
 ```
 
-## 📚 Usage Examples
+## Usage Examples
 
 ### Command Line Analysis
 ```bash
@@ -152,7 +152,7 @@ For catchment area analysis, set your OpenRouteService API key:
 export OPENROUTESERVICE_API_KEY="your_api_key_here"
 ```
 
-## 📊 Data Sources
+## Data Sources
 
 | Source | Description | Usage |
 |--------|-------------|-------|
@@ -161,7 +161,7 @@ export OPENROUTESERVICE_API_KEY="your_api_key_here"
 | **Berlin Statistics Office** | Demographic data | Population forecasts and trends |
 | **OpenRouteService** | Routing and accessibility | Isochrone calculations, walking distances |
 
-## 🔬 Methodology
+## Methodology
 
 ### 1. Data Collection & Processing
 - Automated extraction of daycare locations from OpenStreetMap
@@ -183,7 +183,7 @@ export OPENROUTESERVICE_API_KEY="your_api_key_here"
 - **Statistical Graphics**: Analysis reports with Matplotlib/Seaborn
 - **Jupyter Integration**: Reproducible analysis workflows
 
-## 📈 Key Results
+## Key Results
 
 ### Current Coverage (2024)
 - **Over-supplied Districts**: Charlottenburg-Wilmersdorf, Steglitz-Zehlendorf  
@@ -195,14 +195,14 @@ export OPENROUTESERVICE_API_KEY="your_api_key_here"
 - **Additional Demand**: ~2,500 new daycare spots required
 - **Priority Areas**: 8 districts requiring urgent intervention
 
-## 🎯 Applications
+## Applications
 
 - **Urban Planning**: Evidence-based location planning for new facilities
 - **Policy Making**: Data-driven resource allocation decisions  
 - **Research**: Methodological framework for similar urban analyses
 - **Public Transparency**: Clear visualization of service coverage
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -227,7 +227,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to:
 
@@ -237,17 +237,17 @@ Contributions are welcome! Please feel free to:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
-## 👨‍💻 Author
+## Author
 
 **Silas Pignotti**
 - GitHub: [@SilasPignotti](https://github.com/SilasPignotti)
 - Project: [KitaMap Berlin](https://github.com/SilasPignotti/KitaMap_Berlin)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **OpenStreetMap Community** for comprehensive geospatial data
 - **Berlin Geoportal** for administrative boundaries
@@ -256,5 +256,3 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 - **OpenRouteService** for routing and accessibility APIs
 
 ---
-
-⭐ **If you like this project, please give it a star!**
